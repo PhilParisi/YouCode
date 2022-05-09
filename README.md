@@ -12,7 +12,7 @@ Reach out to philsbeginnercode@gmail.com or comment on my videos for assistance!
 #### How to Download a File
 
 #### How to Download the entire Repository (all files)
-1. install git on your computer
+1. install git on your computer https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 2. open a terminal
 3. navigate to location you want to download files to
 4. git clone https://github.com/PhilParisi/YouCode/git
