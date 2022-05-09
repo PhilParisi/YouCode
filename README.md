@@ -12,7 +12,7 @@ Reach out to philsbeginnercode@gmail.com or comment on my videos for assistance!
 #### How to Download a File
 1. click through this repository to the find the file you need (organized by playlist)
 2. click onto the file to open up its contents
-3. copy and paste the code into a file on your local machine
+3. copy and paste the code into a file on your local machine, or download the file
 4. give credit where credit is due!
 
 #### How to Download the entire Repository (all files)
