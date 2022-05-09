@@ -1,4 +1,4 @@
-# YouTubeCode
+# YouTube Code
 Hey everyone - Phil here! All of the code I use in my YouTube videos in one place!
 Use freely and reference my code as appropriate.
 
