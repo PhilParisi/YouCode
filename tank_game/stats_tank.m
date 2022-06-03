@@ -1,0 +1,13 @@
+function [none] = stats_tank(tank)
+
+% Used to display the stats of the input tank
+disp(strcat("-------",string(tank.name),"'s Stats-------"))
+disp(strcat(...
+    "Position = ", num2str(tank.pose),"m", ...
+    ", Oriented ",string(tank.orient), ...
+    ", Launch Angle = ", num2str(tank.angle), ...
+    ", Launch Speed = ", num2str(tank.launchspeed)));
+
+none = [];
+
+end
