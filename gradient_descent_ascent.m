@@ -66,8 +66,9 @@ fprintf("Reached target in %d iterations\n",length(pts))
 fprintf("Final pt is (x=%1.2f,y=%1.2f,z=%1.2f)\n",pts(end,1),pts(end,2),pts(end,3))
 
 
-
-
+axis off
+set(gca,'color','none')
+set(gcf,'color','none')
 
 
 
@@ -91,7 +92,7 @@ Z = f(X,Y);
 surf(X,Y,Z), hold on
 xlabel('x'),ylabel('y'),zlabel('z')
 
-%%% Gradient Descent (find minima)
+%%% Gradient Ascent (find maxima)
     % gen equation: z2 = z1 - alpha*gradient(f(x,y)), alpha is learning rate
 
 % Setup Equation (partial derivatives -- do analytically or using MATLAB)
@@ -105,7 +106,7 @@ grad_y = matlabFunction(Df_y);
 pts(1,1) = 4;                       % initial x position
 pts(1,2) = 5;                       % initial y position
 pts(1,3) = f(pts(1,1),pts(1,2));    % initial z position
-alpha = 0.1;                        % learning rate
+alpha = 1;                        % learning rate
 
 
 % Algorithm
@@ -139,4 +140,3 @@ scatter3(pts(:,1),pts(:,2),pts(:,3),...
 % Output
 fprintf("Reached target in %d iterations\n",length(pts))
 fprintf("Final pt is (x=%1.2f,y=%1.2f,z=%1.2f)\n",pts(end,1),pts(end,2),pts(end,3))
-
